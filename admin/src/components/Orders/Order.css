@@ -1,0 +1,12 @@
+.order{
+display: grid;
+grid-template-columns: 2fr 2fr 2fr 2fr 1fr 1fr;
+align-items: center;
+border: 1px solid #222324;
+padding-left: 10px;
+gap: 10px;
+
+}
+.order-img{
+    width: 100px;
+}

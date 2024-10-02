@@ -1,0 +1,12 @@
+.Policies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Policie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;margin-right: -200px;
+}

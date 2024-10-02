@@ -1,0 +1,27 @@
+.Best-seller-section{
+    align-items: center;
+    justify-content: center;
+    margin-left: 14%;
+}
+
+.best-seller-display{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
+    gap: 60px;
+
+
+ 
+}
+.best-seller-display img{
+    width: 250px;
+    height: 300px;
+}
+.Best-seller-title {
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 350px;
+
+}
+.Best-seller-title span{
+    color:grey ;
+}

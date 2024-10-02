@@ -1,0 +1,30 @@
+.subtotal{
+    display: flex;
+   
+    
+}
+
+.Cart-total{
+    margin-left: 800px;
+    width: 230px;
+}
+.pirce{
+ margin-left: 120px;
+}
+.total{
+    display: flex;
+    gap: 24px;
+    font-weight: bold;
+}
+.shipping{
+    margin-left: 100px;
+}
+.ship{
+    display: flex;
+}
+.btn{
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 200px;
+}

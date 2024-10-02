@@ -1,0 +1,38 @@
+.Title{
+     font-size: 25px;
+     font-weight: 1000;
+}
+.Title span{
+    color: gray;
+}
+.order-det{
+    display: flex;
+}
+.order-info{
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+.order-info img{
+    width: 150px;
+    height:150px;
+}
+.order-name{
+    font-size: 20px;
+    font-weight: 1000;
+    margin-top: -1px;
+}
+.order-status{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    gap: 200px;
+}
+.item-desc{
+    margin-left: 20px;
+}
+
+.order-desc{
+    display: flex;
+    gap: 20px;
+    margin-top: -20px;
+}

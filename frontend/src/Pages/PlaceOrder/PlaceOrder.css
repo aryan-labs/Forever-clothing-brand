@@ -1,0 +1,88 @@
+.placeorder{
+    display: flex;
+    flex-direction: column;
+
+}
+.del-info input{
+    width: 260px;
+    height: 24px;
+}
+.del-name{
+    display: flex;
+    gap: 20px;
+}
+.del-info{
+    display: flex;
+    flex-direction: column  ;
+    gap: 10px;
+}
+.cart-tot{
+
+}
+.pay-met{
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    justify-content: center;
+
+
+
+
+}
+
+.cart-tot{
+    margin-top: -50px;
+}
+.place-mon{
+
+
+}
+.pl{
+    font-size: 22px;
+    font-weight: 1000;
+}
+.but{
+    color: white;
+    background-color: black;
+    width: 140px;
+    height: 26px;
+   border: none;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.active1{
+ transform: scale(1.1);
+}
+.pay-met img{
+    width: 80px;
+    padding-left: 10px;
+        padding-right: 10px;
+}
+.pay-met1{
+        display: flex;
+            align-items: center;
+            border: 3px solid black;
+            justify-content: center;
+            
+
+}
+.pay-met1 img{
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pay{
+    display: flex;
+    gap: 20px;
+}
+.pay-met2{
+
+    display: flex;
+        align-items: center;
+        border: 3px solid black;
+        justify-content: center;
+            padding-left: 10px;
+    padding-right: 10px;
+
+
+}

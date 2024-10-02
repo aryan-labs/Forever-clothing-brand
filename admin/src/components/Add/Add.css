@@ -1,0 +1,65 @@
+.add-item{
+    display: flex;
+    flex-direction: column;
+
+}
+.add-item img{
+    width: 100px ;
+    height: 100px;
+   
+    gap: 10px;
+}
+.size1 {
+    display: flex;
+    gap: 10px;
+}
+.soize1{
+background-color: lightpink;
+color: black;
+width: 33px;
+align-items: center;
+display: flex;
+justify-content: center;
+border: none;
+cursor: pointer;
+}
+.soize{
+    border: 1px solid black;
+    color: black;
+    background-color: lightblue;
+        width: 33px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+}
+
+
+
+.add-item input{
+    width: 400px;
+  height: 30px;
+ 
+}
+.add-item select{
+    width: 200px;
+    height: 30px;
+}
+.add{
+    width: 160px;
+    height: 33px;
+ 
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.size{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.best{
+    display: flex;
+}

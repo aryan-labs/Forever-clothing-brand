@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar img{
+    width: 180px;
+    height: 70px;
+    margin-left: 10px;
+
+}
+.navbar button{
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    width: 100px;
+    height: 30px;
+    border-style: none;
+    margin-right: 10px;
+}

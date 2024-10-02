@@ -1,0 +1,13 @@
+.price{
+ color:darkgoldenrod;
+    font-size: 20px;
+   
+    justify-content: center;
+    display: flex;
+
+}
+.name{
+    font-size: 17px;
+    font-weight: 500;
+    width: 300px;
+}

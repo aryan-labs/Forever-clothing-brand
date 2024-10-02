@@ -1,0 +1,33 @@
+*{
+    text-decoration: none;
+    color: inherit;
+}
+.add-items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    width: 170px;
+    justify-content: center;
+}
+.list-items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    width: 170px;
+    justify-content: center;
+}
+.orders{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    width: 170px;
+    justify-content: center;
+}
+.sidebar{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
