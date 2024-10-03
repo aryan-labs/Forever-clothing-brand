@@ -21,7 +21,7 @@ const Verify = () => {
                 return null
             }
 
-            const response = await axios.post('http://localhost:4000/api/order/verifyStripe', { success, orderId }, { headers: { token } })
+            const response = await axios.post('https://forever-clothing-brand-1-backend.onrender.com/api/order/verifyStripe', { success, orderId }, { headers: { token } })
 
             if (response.data.success) {
                 setCartItems({})
