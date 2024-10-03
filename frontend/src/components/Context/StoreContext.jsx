@@ -7,7 +7,7 @@ export const StoreContext=createContext(null);
 
 
 const StoreContextProvider = (props) => {
-  const backendUrl="http://localhost:4000"
+  const backendUrl="https://forever-clothing-brand-1-backend.onrender.com"
     const [search,setseach]=useState("")
     const [searchbar,setsearchbar]=useState(false)
     const [cartItem,setCartItem]=useState([]) 
@@ -20,7 +20,7 @@ const StoreContextProvider = (props) => {
     const getProductsData = async () => {
         try {
 
-            const response = await axios.get( 'http://localhost:4000/api/product/list')
+            const response = await axios.get( 'https://forever-clothing-brand-1-backend.onrender.com/api/product/list')
             if (response.data.success) {
                 setProducts(response.data.products.reverse())
             } else {
@@ -70,7 +70,7 @@ const StoreContextProvider = (props) => {
       
 if(token){
   try{
-  const response=await axios.post("http://localhost:4000/api/cart/add",{itemId,size},{headers:{token}})
+  const response=await axios.post("https://forever-clothing-brand-1-backend.onrender.com/api/cart/add",{itemId,size},{headers:{token}})
 }
 catch(error){
 
@@ -92,7 +92,7 @@ catch(error){
 
 if(token){
   try{
-  const response=await axios.post("http://localhost:4000/api/cart/update",{itemId,size,quantity},{headers:{token}})
+  const response=await axios.post("https://forever-clothing-brand-1-backend.onrender.com/api/cart/update",{itemId,size,quantity},{headers:{token}})
   }
   catch(error){
 console.log(error)
@@ -105,7 +105,7 @@ toast.error(error.message)
 
     const getUserCart=async(token)=>{
       try{
-        const response=await axios.post("http://localhost:4000/api/cart/get",{},{headers:{token}})
+        const response=await axios.post("https://forever-clothing-brand-1-backend.onrender.com/api/cart/get",{},{headers:{token}})
         if(response.data.success){
           setCartItem(response.data.cartData)
         }
