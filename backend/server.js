@@ -5,9 +5,9 @@ import path from "path";
 import { fileURLToPath } from "url"; // Import fileURLToPath
 import { dirname } from "path";
 
-import productRouter from "./routes/productRoute.js";
-import cartRouter from "./routes/cartRoute.js";
-import orderRouter from "./routes/orderRoute.js";
+import productRouter from "./Routes/productRoute.js";
+import cartRouter from "./Routes/cartRoute.js";
+import orderRouter from "./Routes/orderRoute.js";
 import userRouter from "./Routes/userRoutes.js";
 import { connectDb } from "./config/db.js";
 
