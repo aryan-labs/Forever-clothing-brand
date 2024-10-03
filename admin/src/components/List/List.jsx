@@ -8,7 +8,7 @@ const List = () => {
  const fetchList = async () => {
     try {
 
-      const response = await axios.get('https://forever-clothing-brand-1-backend.onrender.com/api/product/list')
+      const response = await axios.get('https://forever-clothing-brand-backend.onrender.com/api/product/list')
       if (response.data.success) {
         setList(response.data.products.reverse());
       }
@@ -25,7 +25,7 @@ const List = () => {
   const removeProduct = async (id) => {
     try {
 
-      const response = await axios.post('https://forever-clothing-brand-1-backend.onrender.com/api/product/remove', { id } )
+      const response = await axios.post('https://forever-clothing-brand-backend.onrender.com/api/product/remove', { id } )
 
       if (response.data.success) {
         toast.success(response.data.message)
