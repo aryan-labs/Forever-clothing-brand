@@ -47,7 +47,7 @@ cartItem,updateQuantity
                 console.log(response)
                 try {
                     
-                    const { data } = await axios.post( 'http://localhost:4000/api/order/verifyRazorpay',response,{headers:{token}})
+                    const { data } = await axios.post( 'https://forever-clothing-brand-1-backend.onrender.com/api/order/verifyRazorpay',response,{headers:{token}})
                     if (data.success) {
                         navigate('/orders')
                         setCartItem({})
@@ -92,7 +92,7 @@ cartItem,updateQuantity
 
                 // API Calls for COD
                 case 'cod':
-                    const response = await axios.post('http://localhost:4000/api/order/place',orderData,{headers:{token}})
+                    const response = await axios.post('https://forever-clothing-brand-1-backend.onrender.com/api/order/place',orderData,{headers:{token}})
                     if (response.data.success) {
                         setCartItem({})
                         navigate('/orders')
@@ -102,7 +102,7 @@ cartItem,updateQuantity
                     break;
 
                 case 'stripe':
-                    const responseStripe = await axios.post( 'http://localhost:4000/api/order/stripe',orderData,{headers:{token}})
+                    const responseStripe = await axios.post( 'https://forever-clothing-brand-1-backend.onrender.com/api/order/stripe',orderData,{headers:{token}})
                     if (responseStripe.data.success) {
                         const {session_url} = responseStripe.data
                         window.location.replace(session_url)
