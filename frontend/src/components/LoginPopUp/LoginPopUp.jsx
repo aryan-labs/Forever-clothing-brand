@@ -5,7 +5,7 @@ import { assets } from '../../assets/assets'
 import axios from 'axios'
 const LoginPopUp = () => {
     const {showLogin,setShowLogin,setToken,token}=useContext(StoreContext)
-    const url="http://localhost:4000"
+    const url="https://forever-clothing-brand-1-backend.onrender.com"
     const [data,setData]=useState({
       name:"",
       email:"",
