@@ -12,7 +12,7 @@ const LatestCollection =() => {
 
     
       const fetchData=async()=>{
-          const response=await axios.get('http://localhost:4000/api/product/list')
+          const response=await axios.get('https://forever-clothing-brand-1-backend.onrender.com/api/product/list')
     if(response.data.success){
       setList(response.data.products.slice(0,5))
     }
