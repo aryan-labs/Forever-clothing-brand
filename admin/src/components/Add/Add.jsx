@@ -36,7 +36,7 @@ const Add = () => {
       image1 && formData.append("image1",image1)
     
 
-      const response = await axios.post( "http://localhost:4000/api/product/add",formData)
+      const response = await axios.post( "https://forever-clothing-brand-1-backend.onrender.com/api/product/add",formData)
 
       if (response.data.success) {
         toast.success(response.data.message)
